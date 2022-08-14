@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: "orange-juice";
+    src: url('/fonts1/orange\ juice\ 2.0.ttf');
+
+}
+@font-face{
+    font-family: "Mashally" ;
+    src: url('/fonts1/Mashally.ttf');
+}
+@font-face{
+    font-family: "Alba";
+    src: url('/fonts1/ALBA____.TTF');
+}
+.menu{
+    background-color: #38495d;
+    margin: auto;
+    width: 700px;
+    display: flex;
+    border-radius: 20px;
+}
+.meny-link{
+    width: 20%;
+    display: block;
+    color: white;
+    font-family: "Arial";
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 19px 0;
+    text-align: center;
+    transition: 0,2;
+}
+.meny-link:hover{
+    background-color: #44bb9b;
+    border-radius: 20px;
+}
+/*-----------------*/
+.div{
+    margin: auto;
+    width: 200px;
+    text-align: center;  
+    font-family: "Lato";  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img{
+    width: 150px;
+    padding: 0px;
+
+}
+h2{
+    font-size: 25px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+.p{
+    padding-top: 0px;
+    font-size: 10px;
+    margin-top: 0px;
+}
+.span{
+    font-size: 25px;
+    color: aquamarine;
+    padding: 20px 0px;
+}
+.buttom{
+    
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 10px 0px 10px 0px;
+    text-transform: uppercase;
+}
+/*--------------*/
+.iphone13_div{
+    font-family: 'Mashally';
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 165px;
+    margin-right: 165px;
+    border-radius: 30px;
+    margin-bottom: 44px;
+}
+.spam_iphone13{
+    position: absolute;
+    width: 371px;
+    height: 74px;
+    left: 245px;
+    top: 170px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+}
+.iphone13{
+    border-radius: 30px;
+}
